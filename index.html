@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- My CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- Animasi Web -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <title>My Portfolio</title>
+</head>
+
+<body id="#home">
+
+  <!-- Awal Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #32C1CD;" data-aos="fade-down" data-aos-duration="1000">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><b>My Portfolio</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Akhir Navbar -->
+
+  <!-- Awal Jumbotron -->
+  <section class="jumbotron text-center" id="home">
+    <img src="img/foto.jpg" alt="Daffa Pratama A.S" width="200" class="rounded-circle" img-thumbnail data-aos="flip-left" data-aos-duration="1000" data-aos-delay="50" />
+    <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine"><b>Daffa Pratama A.S</b></h1>
+    <p class="lead" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">Student | Backend Developer</p>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1" d="M0,64L60,96C120,128,240,192,360,186.7C480,181,600,107,720,112C840,117,960,203,1080,202.7C1200,203,1320,117,1380,74.7L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+    </svg>
+  </section>
+  <!-- Akhir Jumbotron -->
+
+  <!-- Awal About  -->
+  <section id="about">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2 data-aos="fade-down"><b>About Me</b></h2>
+        </div>
+      </div>
+      <div class="row justify-content-center fs-5" style="text-align: center;">
+        <div class="col-md-4 mb-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
+          <p>Hello, My Name Is Daffa Pratama A.S. Usually Called Daffa, I Am Studying At SMK Negeri 2 Surabaya And Want To Be A Programmer, Backend Developer.</p>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#CCF2F4" fill-opacity="1" d="M0,64L60,90.7C120,117,240,171,360,160C480,149,600,75,720,90.7C840,107,960,213,1080,234.7C1200,256,1320,192,1380,160L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+    </svg>
+  </section>
+  <!-- Akhir About -->
+
+  <!-- Awal Projects -->
+  <section id="projects">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2 class="mb-3" data-aos="fade-down"><b>Projects And Certificate</b></h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-4 mb-3">
+          <div class="card" data-aos="flip-left" data-aos-duration="500">
+            <img src=img/projects/project1.png class="card-img-top" alt="projects 1">
+            <div class="card-body">
+              <p class="card-text" style="text-align: justify;">Receipt Check Website is made using Bootstrap Framework and JQuery (AJAX)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
+            <img src=img/projects/project2.png class="card-img-top" alt="projects 2">
+            <div class="card-body">
+              <p class="card-text" style="text-align: justify;">News Website is made using Bootstrap Framework and Codeigniter Framework</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
+            <img src=img/projects/project3.png class="card-img-top" alt="projects 3">
+            <div class="card-body">
+              <p class="card-text" style="text-align: justify;">My E-Commerce is made using Bootstrap Framework and Codeigniter Framework</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
+            <img src=img/sertifikat/sertifikat2.jpg class="card-img-top" alt="projects 4">
+            <div class="card-body">
+              <p class="card-text" style="text-align: justify;">Certificate HTML Course sololearn</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+            <img src=img/sertifikat/sertifikat1.jpg class="card-img-top" alt="projects 5">
+            <div class="card-body">
+              <p class="card-text" style="text-align: justify;">Certificate CSS Course sololearn</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+            <img src=img/sertifikat/sertifikat3.jpg class="card-img-top" alt="projects 5">
+            <div class="card-body">
+              <p class="card-text" style="text-align: justify;">Certificate PHP Course sololearn</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1" d="M0,64L60,96C120,128,240,192,360,186.7C480,181,600,107,720,112C840,117,960,203,1080,202.7C1200,203,1320,117,1380,74.7L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+    </svg>
+  </section>
+  <!-- Akhir Projects -->
+
+  <!-- Awal Contact -->
+  <section id="contact">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2><b>Contact Me</b></h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nama Lengkap</label>
+              <input type="text" class="form-control" id="name" aria-describedby="name" />
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+              <div id="email">
+              </div>
+
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#32C1CD" fill-opacity="1" d="M0,224L30,202.7C60,181,120,139,180,144C240,149,300,203,360,197.3C420,192,480,128,540,128C600,128,660,192,720,202.7C780,213,840,171,900,165.3C960,160,1020,192,1080,218.7C1140,245,1200,267,1260,245.3C1320,224,1380,160,1410,128L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
+    </svg>
+  </section>
+  <!-- Akhir Contact -->
+
+  <!-- Awal Footer -->
+  <footer class="text white text-center pb-4" style="background-color: #32C1CD;">
+    <p class="text-white fw-bold">Created By Daffa Pratama A.S | 2022 All Rights Reserved</p>
+  </footer>
+  <!-- Akhir Footer -->
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://apis.google.com/js/platform.js"></script>
+
+</body>
+
+</html>
